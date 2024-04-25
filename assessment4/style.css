@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    margin: 15px 15px;
+}
+.head{
+    text-align: left;
+    color: rgb(21, 191, 49);
+}
+.search{
+    position: relative;
+}
+input[type=text]{
+    width: 85%;
+    height: 43px;
+    border-radius: 5px;
+    border-color: rgb(212, 208, 208);
+    margin: 15px 0;
+}
+#search-icon{
+   position: absolute;
+   top: 28px;
+   left: 13px;
+   opacity: 0.5;
+}
+.suggest{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.music{
+    display: block;
+}
+.m1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+    height: 100%;
+    width: 290px;
+}
+.m1 img{
+    width: 90px;
+    height: 56px;
+}
+.context{
+    margin: auto;
+    margin-left: 20px;
+}
+.context h5{
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.context p{
+    font-size: 12px;
+}
+.icon{
+    position: absolute;
+    top: 22px;
+    right: 30px;
+}
+@media screen and (min-width:375px){
+    .m1{
+        height: 100%;
+        width: 320px;
+    }
+    .suggest{
+        font-size: 14px;
+    }
+    .icon{
+        right: 25px;
+    }
+}
+@media screen and (min-width:425px){
+    .m1{
+        height: 100%;
+        width: 390px;
+    }
+    .icon{
+        right: 45px;
+    }
+}
+@media screen and (min-width:768px){
+    .music{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .m1{
+        height: 62px;
+        width: 230px;
+    }
+    .m1 img{
+        width: 50px;
+        height: 56px;
+    }
+    .context{
+        margin-left: 10px;
+    }
+    .context h5{
+        font-size: 11px;
+    }
+    .context p{
+        font-size: 8px;
+    }
+    .icon{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:1024px){
+    .head{
+        font-size: 18px;
+    }
+    .suggest{
+        font-size: 22px;
+    }
+    .m1{
+        height: 62px;
+        width: 230px;
+    }
+    .m1 img{
+        width: 60px;
+        height: 60px;
+    }
+    .context{
+        margin-left: 10px;
+    }
+    .context h5{
+        font-size: 11px;
+    }
+    .context p{
+        font-size: 8px;
+    }
+    .icon{
+        font-size: 12px;
+    }
+}

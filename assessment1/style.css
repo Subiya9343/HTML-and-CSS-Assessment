@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    margin: 15px 0px 0px 20px;
+    color: rgb(63, 214, 63);
+    font-size: 12px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.music1{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+}
+img{
+    height: 120px;
+    width: 135px;
+    margin: 7px;
+}
+.text{
+    position: absolute;
+    top: 44px;
+    left: 35px;
+    color: white; 
+    font-weight: bolder;
+    font-size: 20px;
+}
+@media screen and (min-width:375px){
+    img{
+        height: 140px;
+        width: 159px;
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width:425px){
+    img{
+        height: 100px;
+        width: 108px;
+        margin-right: 20px;
+    }
+}
+@media screen and (min-width:768px){
+    img{
+        height: 100px;
+        width: 122px;
+        margin-right: 20px;
+    }
+}
+@media screen and (min-width:1024px){
+    img{
+        height: 160px;
+        width: 149px;
+        margin-right: 10px;
+    }
+    .text{
+        position: absolute;
+        top: 64px;
+        left: 45px;
+    }
+}
